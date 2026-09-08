@@ -78,6 +78,16 @@
 
   footer{border-top:2px solid var(--ink);margin-top:3rem;padding-top:1rem;
          font:400 12.5px/1.7 var(--mono);color:var(--muted)}
+  .when-where{margin:.55rem 0 .2rem;font:600 12.5px/1.65 var(--mono);color:var(--ink)}
+  .when-where span{display:block;color:var(--ink2);font-weight:400}
+  .cal{display:inline-block;font:700 11px/1 var(--mono);letter-spacing:.1em;
+       text-transform:uppercase;padding:.5rem .7rem;margin:.7rem .35rem 0 0;
+       background:var(--ink);color:#fff;text-decoration:none}
+  .big{display:block;text-align:center;background:var(--electric);color:#fff;
+       font:700 13px/1.3 var(--mono);letter-spacing:.09em;text-transform:uppercase;
+       padding:1rem;margin:1.2rem 0;text-decoration:none}
+  .big small{display:block;font-weight:400;letter-spacing:.04em;text-transform:none;
+             margin-top:.4rem;opacity:.92}
   @media (max-width:420px){ body{font-size:15.5px} .card{padding:.85rem .9rem} }
 </style>
 </head>
@@ -88,22 +98,21 @@
 <header>
   <p class="kick">Field plan</p>
   <h1>All In<br>2026</h1>
-  <p class="when"><b>Sept 16 to 17</b> &middot; Palais des congrès, Montréal<br>
+  <p class="when"><b>Wed 16 and Thu 17 September 2026</b><br>
+  <span style="font-weight:400;color:var(--muted)">Palais des congrès de Montréal<br>
+  1001 Place Jean-Paul-Riopelle, Montréal QC H2Z 1H5</span><br><br>
   7,500 attendees &middot; 200+ speakers &middot; 5 tracks &middot; 11 industry verticals</p>
 </header>
 
-<div class="line">
-  <span class="lbl">Say this, not your job title</span>
-  <p>I build AI systems that generate media end to end. One wrote and published social
-  content for financial advisors across Canada. Another turns a two hour gig recording
-  into a month of captioned reels. Day job is AI transformation at CANARIE.</p>
-</div>
+<a class="big" href="allin-2026.ics">Add it all to my calendar
+<small>Downloads an .ics. Opens straight into Apple or Google Calendar on a phone.</small></a>
 
-<div class="note">
-  <b>Why that line matters.</b> Lead with the official title and every conversation for
-  two days becomes a security conversation. You will go home having had the wrong forty
-  chats. The line above is true, specific, has numbers in it, and routes people to the
-  half of your work you want more of.
+<div class="line">
+  <span class="lbl">The thirty second version</span>
+  <p>I do AI transformation at CANARIE, and I build generative media pipelines: systems
+  that take a data source and produce finished images, video and copy on a schedule. One
+  ran social content for financial advisors across Canada. Another turns a two hour live
+  recording into a month of captioned reels.</p>
 </div>
 
 <h2>The three that matter</h2>
@@ -111,54 +120,64 @@
 <div class="card p1">
   <span class="tag t-must">Do not miss</span>
   <h3>Creative Industries</h3>
-  <p class="who">Agora stage &middot; David Lerech (Propulsion Media) + an exec from <b>Runway</b></p>
-  <p class="why">The most on-trajectory session in the building, and it nearly did not get
-  found. Runway makes one of the video models in the render stack that the roles you want
-  are built on. Sit near the front and catch them coming off stage. Two minutes with someone
-  who has actually shipped a render pipeline beats an hour of panel.</p>
-  <p>Ask: what does the pipeline actually look like on the render side, and where does a
-  model make the visual call rather than a human.</p>
+  <p class="who">Agora stage &middot; David Lerech (Propulsion Media) + an executive from <b>Runway</b></p>
+  <p class="when-where">Wed 16 Sept &middot; time TBC in the app
+    <span>Palais des congrès de Montréal, 1001 Place Jean-Paul-Riopelle, Montréal QC H2Z 1H5</span></p>
+  <p class="why">Part of the Media and Entertainment vertical, covering journalism,
+  advertising, film, music, design, gaming and digital creation. Runway makes one of the
+  video generation models that most of this field is built on, so this is the single most
+  relevant hour of the two days.</p>
+  <p>Worth asking: what does the pipeline actually look like on the render side, and where
+  in it does a model make the visual call rather than a person.</p>
+  <p><b>The time was not published in advance.</b> Find it in the app first thing on
+  Wednesday. There is a reminder in the calendar file for exactly that.</p>
 </div>
 
 <div class="card p2">
   <span class="tag t-high">Highest value</span>
   <h3>Cohere</h3>
   <p class="who">Exhibiting &middot; Aidan Gomez (CEO, co-founder) and Joelle Pineau (Chief AI Officer) both speaking</p>
-  <p class="why">Canadian, publishes its bands, and the agents and automations work is
-  the closest thing on the floor to what you actually build. Individual contributor, no
-  reports.</p>
-  <p>Work the booth, not the keynote. Engineers and recruiters, never the CEO. One good
-  conversation with someone on the agents team is worth more than a photograph.</p>
+  <p class="when-where">Both days &middot; exhibitor floor
+    <span>Palais des congrès de Montréal, 1001 Place Jean-Paul-Riopelle, Montréal QC H2Z 1H5</span></p>
+  <p class="why">The most interesting Canadian company on the floor for agents and
+  automation work, which is the closest thing here to what I actually build.</p>
+  <p>The booth beats the keynote. A real conversation with someone on the agents team is
+  worth more than a seat at a talk that will be recorded anyway.</p>
 </div>
 
 <div class="card p2">
-  <span class="tag t-high">Your unfair advantage</span>
+  <span class="tag t-high">Something to say</span>
   <h3>Langfuse</h3>
   <p class="who">Exhibiting &middot; LLM observability and evals</p>
-  <p class="why">The one booth where you arrive with something to say instead of being a
-  punter. You built an eval harness last week that found a 6.7% groundedness failure and a
-  contradiction between a rubric and its own schema. Two weeks ago evals was the weakest
-  line in your material. Turning up at the eval company with real findings closes it.</p>
+  <p class="when-where">Both days &middot; exhibitor floor
+    <span>Palais des congrès de Montréal, 1001 Place Jean-Paul-Riopelle, Montréal QC H2Z 1H5</span></p>
+  <p class="why">Evals are the part of LLM engineering with the least written about it and
+  the most to argue about. I have just built a harness over a live LLM judge that found a
+  6.7 percent groundedness failure and a contradiction between a rubric and its own schema,
+  so there is a real conversation to have here rather than a demo to watch.</p>
   <p>Lead with the finding, not the tool.</p>
 </div>
 
 <h2>Worth the walk</h2>
 
 <div class="card p3">
-  <span class="tag t-base">Covers the day job</span>
+  <span class="tag t-base">Day job, directly</span>
   <h3>Alliance Canada</h3>
   <p class="who">Digital Research Alliance of Canada &middot; exhibiting</p>
-  <p class="why">CANARIE's sibling in national research infrastructure. One conversation here
-  justifies the entire trip to Steve, and it feeds the AI transformation remit directly.</p>
+  <p class="when-where">Both days &middot; exhibitor floor
+    <span>Palais des congrès de Montréal, 1001 Place Jean-Paul-Riopelle, Montréal QC H2Z 1H5</span></p>
+  <p class="why">The Alliance and CANARIE are the two halves of Canada's national research
+  infrastructure. Directly relevant to the AI transformation work, and the single most
+  useful conversation on the floor for the day job.</p>
 </div>
 
 <div class="card">
-  <span class="tag t-ok">Creative industry, in a suit</span>
+  <span class="tag t-ok">Creative industry at scale</span>
   <h3>Publicis &middot; L'Oréal</h3>
   <p class="who">Both exhibiting</p>
-  <p class="why">The only two genuine creative-industry giants on the floor, both running
-  real generative content operations at scale. Publicis has a Montréal office. This is the
-  vertical-media lane wearing a lanyard.</p>
+  <p class="why">The two creative-industry giants on the floor, both running real
+  generative content operations at scale. Publicis has a Montréal office. Worth seeing how
+  a global creative network actually operationalises this.</p>
 </div>
 
 <div class="card">
@@ -170,62 +189,73 @@
 </div>
 
 <div class="card">
-  <span class="tag t-ok">Base covering</span>
+  <span class="tag t-ok">Security vertical</span>
   <h3>Microsoft &middot; CrowdStrike &middot; Delinea &middot; Cyera &middot; Qohash</h3>
-  <p class="who">Cybersecurity is a full vertical this year</p>
-  <p class="why">Microsoft for the Copilot agent work specifically. The rest only if you
-  want ammunition for the IT turf fight. Do not let this become the whole conference.</p>
+  <p class="who">Cybersecurity is a full industry vertical this year</p>
+  <p class="when-where">Both days &middot; exhibitor floor</p>
+  <p class="why">Microsoft for the Copilot agent work specifically, which is live at work
+  right now. The security vendors are useful background rather than the reason to be here.</p>
 </div>
 
 <h2>Evenings</h2>
 
 <div class="card p1">
-  <span class="tag t-must">Confirmed</span>
+  <span class="tag t-must">Registered</span>
   <h3>AI Salon Montréal</h3>
-  <p class="who">Tues 16 Sept &middot; AX.C &middot; doors 17:30 &middot; 331 going</p>
-  <p>17:45 welcome &middot; 18:00 keynote &middot; 18:15 startup demos and pitches &middot; 19:00 networking.
-  Hosts: Nicholas Nadeau, Claude G. Théoret, Sylvain Carle. Founders, builders and investors.
-  Sponsored by Québec Tech and AX.C.</p>
-  <p class="why">Go for the 19:00 hour, not the keynote. This is the room where Montréal's
-  actual builders are, and it is the closest thing to the creative-technical ecosystem you
-  will get all week.</p>
+  <p class="who">Hosted by Nicholas Nadeau, Claude G. Théoret and Sylvain Carle &middot; 331 going</p>
+  <p class="when-where">Thu 17 Sept &middot; 17:30 to 20:00
+    <span>Ax.c Le Parquet, 800 Rue du Square-Victoria, 3rd floor, Montréal QC H3C 0B4</span></p>
+  <p>17:30 doors &middot; 17:45 welcome &middot; 18:00 keynote &middot; 18:15 startup demos and pitches
+  &middot; 19:00 networking. Sponsored by Québec Tech, Affaires mondiales and Ax.c.</p>
+  <p class="why">Founders, builders and investors. The 19:00 hour is the reason to go, and
+  this is the closest thing all week to Montréal's actual building community.</p>
+  <a class="cal" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=AI%20Salon%20Montr%C3%A9al&amp;dates=20260917T213000Z/20260918T000000Z&amp;location=Ax.c%20Le%20Parquet%2C%20800%20Rue%20du%20Square-Victoria%2C%203rd%20floor%2C%20Montr%C3%A9al%20QC%20H3C%200B4&amp;details=17%3A30%20doors%20%C2%B7%2018%3A00%20keynote%20%C2%B7%2018%3A15%20demos%20%C2%B7%2019%3A00%20networking" target="_blank" rel="noopener">Add to Google Calendar</a>
 </div>
 
 <div class="card p2">
-  <span class="tag t-high">Pending approval</span>
+  <span class="tag t-high">Awaiting approval</span>
   <h3>MINDSHIFT 5@8</h3>
-  <p class="who">Tues 16 Sept, 17:00 to 20:00 &middot; Bar Le Mal Nécessaire, 1015 Rue St Alexandre</p>
-  <p>Presented by Paperminds and Draft &amp; Goal. Their framing question: <em>how do we become
-  better with technology, rather than simply better at using it?</em></p>
-  <p class="why">The audience is <b>marketing leaders</b>, which is exactly why you should go.
-  You will be one of very few people in that room who has actually built the thing everyone
-  else is speculating about. That is your tech-and-marketing crossover in a bar.</p>
+  <p class="who">Presented by Paperminds and Draft &amp; Goal &middot; approval based, via mindshift.social</p>
+  <p class="when-where">Wed 16 Sept &middot; 17:00 to 20:00
+    <span>Bar Le Mal Nécessaire, 1015 Rue St Alexandre, Montréal QC H2Z 1N9</span></p>
+  <p>Their framing question: <em>how do we become better with technology, rather than simply
+  better at using it?</em></p>
+  <p class="why">The audience is marketing leaders rather than engineers, which is the
+  interesting part. Very few people in that room will have actually built the systems
+  everyone is speculating about, and the tech and marketing crossover is the whole reason
+  this work is interesting in the first place.</p>
+  <a class="cal" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=MINDSHIFT%205%408&amp;dates=20260916T210000Z/20260917T000000Z&amp;location=Bar%20Le%20Mal%20N%C3%A9cessaire%2C%201015%20Rue%20St%20Alexandre%2C%20Montr%C3%A9al%20QC%20H2Z%201N9&amp;details=Presented%20by%20Paperminds%20and%20Draft%20%26%20Goal.%20Marketing%20leaders." target="_blank" rel="noopener">Add to Google Calendar</a>
 </div>
 
 <div class="note">
-  Both are on the same evening and both start around five. AI Salon is confirmed, so if
-  MINDSHIFT lands, do MINDSHIFT first from five and move to AI Salon for the networking
-  hour at seven. They are a ten minute walk apart.
+  <b>They do not clash.</b> MINDSHIFT is Wednesday the 16th, AI Salon is Thursday the 17th.
+  An earlier listing put an AI Salon <em>alumni</em> event on the Wednesday, which is a
+  different thing and invitation-only to past chapter founders. Both venues are a short
+  walk from the Palais.
 </div>
 
 <h2>Also on</h2>
 <div class="grid">
-  <div class="row"><b>Mon 15, 09:00</b><span>Deep Dive Into Montréal's AI Ecosystem &middot; Montréal International at Dentons &middot; free, register</span></div>
-  <div class="row"><b>Mon 15, 08:30</b><span>SMEs and AI management systems &middot; CSA Group &middot; free, skip unless the morning is empty</span></div>
-  <div class="row"><b>Sun 14, 08:00</b><span>FinTech Forum &middot; Finance Montréal &middot; paid, not for you</span></div>
-  <div class="row"><b>Fri 18, 16:00</b><span>Onix, Beyond the Studio &middot; a pilates apero &middot; genuinely, no</span></div>
+  <div class="row"><b>Tue 15, 09:00</b><span><b>Deep Dive Into Montréal's AI Ecosystem</b> &middot; Montréal International and Investissement Québec, at Dentons &middot; free, registration required &middot; the fastest map of who is actually in this city</span></div>
+  <div class="row"><b>Tue 15, 08:30</b><span>SMEs and AI management systems &middot; CSA Group, CSA Montréal office &middot; free &middot; only if the morning is otherwise empty</span></div>
+  <div class="row"><b>Mon 14, 08:00</b><span>FinTech Forum &middot; Finance Montréal, Fairmont Le Reine Elizabeth &middot; paid &middot; skip</span></div>
+  <div class="row"><b>Fri 18, 16:00</b><span>Onix, Beyond the Studio &middot; MTLPILATES &middot; a pilates apero &middot; skip</span></div>
 </div>
 
 <h2>Ground rules</h2>
 <ul>
   <li><b>Hallways over seats.</b> The talks are recorded, the conversations are not. Bias hard toward the floor and the Startup Zone.</li>
   <li><b>The five tracks</b> are AI &amp; Society, Applied AI &amp; Enterprise Transformation, AI at the Frontier, AI Data &amp; Infrastructure, Physical AI &amp; Robotics. Applied AI is your day job on a stage. Everything creative sits inside the industry verticals, not the tracks, which is why it is easy to miss.</li>
-  <li><b>Posting from a conference</b> is the least job-seekery content that exists. A free week of being publicly an AI person with none of the risk.</li>
+  <li><b>Post from the floor.</b> Two days of good material and a reason to write something that is not a build log.</li>
   <li><b>Do not collect badges.</b> Five real conversations beats fifty cards.</li>
 </ul>
 
+<a class="big" href="allin-2026.ics" style="background:var(--ink)">Add it all to my calendar
+<small>Two conference days, both evenings, the Tuesday briefing, and a Wednesday reminder to find the Runway session time.</small></a>
+
 <footer>
   Built 2026-09-08 &middot; Bold Talks palette, inverted for daylight and phones<br>
+  All times America/Montréal. Session times marked TBC were not published in advance.<br>
   Works offline. No tracking, no fonts, no requests.<br>
   Sources: allinevent.ai programming, industries, partners and off-events pages; Luma; mindshift.social
 </footer>

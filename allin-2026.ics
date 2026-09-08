@@ -1,0 +1,77 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Colin Calnan//ALL IN 2026 Montreal//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ALL IN 2026 Montréal
+X-WR-TIMEZONE:America/Toronto
+BEGIN:VEVENT
+UID:allin2026-day1@colincalnan.github.io
+DTSTAMP:20260908T120000Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:ALL IN 2026, Day 1
+LOCATION:Palais des congrès de Montréal, 1001 Place Jean-Paul-Riopelle, Montréal, QC H2Z 1H5
+DESCRIPTION:Canada's largest AI conference. Five tracks: AI & Society; Applied AI & Enterprise Transformation; AI at the Frontier; AI, Data & Infrastructure; Physical AI & Robotics. Eleven industry verticals including Media & Entertainment and Cybersecurity.\n\nPlan: https://colincalnan.github.io/allin-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:allin2026-day2@colincalnan.github.io
+DTSTAMP:20260908T120000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:ALL IN 2026, Day 2
+LOCATION:Palais des congrès de Montréal, 1001 Place Jean-Paul-Riopelle, Montréal, QC H2Z 1H5
+DESCRIPTION:Day two. Startup Zone and exhibitor floor are the priority over stage time.\n\nPlan: https://colincalnan.github.io/allin-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:allin2026-creative-check@colincalnan.github.io
+DTSTAMP:20260908T120000Z
+DTSTART:20260916T115500Z
+DTEND:20260916T121500Z
+SUMMARY:Check app: Creative Industries session time (Agora stage)
+LOCATION:Palais des congrès de Montréal, 1001 Place Jean-Paul-Riopelle, Montréal, QC
+DESCRIPTION:The exact time was not published in advance. Find it in the event app first thing and put it in the calendar.\n\nCreative Industries, Agora stage. David Lerech (Propulsion Media) and an executive from Runway. Media and Entertainment vertical: journalism, advertising, film, music, design, gaming and digital creation.\n\nThis is the one session not to miss.
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Find the Creative Industries session time
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:allin2026-mindshift@colincalnan.github.io
+DTSTAMP:20260908T120000Z
+DTSTART:20260916T210000Z
+DTEND:20260917T000000Z
+SUMMARY:MINDSHIFT 5@8
+LOCATION:Bar Le Mal Nécessaire, 1015 Rue St Alexandre, Montréal, QC H2Z 1N9
+DESCRIPTION:Presented by Paperminds and Draft & Goal. Audience is marketing leaders. Framing question: how do we become better with technology, rather than simply better at using it?\n\nRegistration is approval-based via mindshift.social.
+BEGIN:VALARM
+TRIGGER:-PT45M
+ACTION:DISPLAY
+DESCRIPTION:MINDSHIFT at Bar Le Mal Nécessaire
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:allin2026-aisalon@colincalnan.github.io
+DTSTAMP:20260908T120000Z
+DTSTART:20260917T213000Z
+DTEND:20260918T000000Z
+SUMMARY:AI Salon Montréal
+LOCATION:Ax.c Le Parquet, 800 Rue du Square-Victoria, 3rd floor, Montréal, QC H3C 0B4
+DESCRIPTION:17:30 doors\n17:45 welcome\n18:00 keynote\n18:15 startup demos and pitches\n19:00 networking\n\nHosts: Nicholas Nadeau, Claude G. Théoret, Sylvain Carle. Sponsored by Québec Tech, Affaires mondiales and Ax.c. Founders, builders and investors.\n\nThe 19:00 hour is the reason to go.
+BEGIN:VALARM
+TRIGGER:-PT45M
+ACTION:DISPLAY
+DESCRIPTION:AI Salon at Ax.c Le Parquet
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:allin2026-deepdive@colincalnan.github.io
+DTSTAMP:20260908T120000Z
+DTSTART:20260915T130000Z
+DTEND:20260915T150000Z
+SUMMARY:Deep Dive Into Montréal's AI Ecosystem
+LOCATION:Dentons, Montréal, QC
+DESCRIPTION:Hosted by Montréal International and Investissement Québec International with Dentons. Free, registration required. Aimed at international delegations; the fastest available map of who is actually in this city.\n\nOptional. End time is an estimate.
+END:VEVENT
+END:VCALENDAR
