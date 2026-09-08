@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>ALL IN 2026 / Field plan</title>
+<style>
+  /* Bold Talks, inverted. The palette is the same, the ground is white.
+     Low-contrast members of the family (cyan, yellow, peach) become FILLS
+     with dark text on them and never sit on white as type. Cobalt, violet
+     and orange carry the type. */
+  :root{
+    --bg:#fff; --bg2:#F7F7FA; --ink:#0A0A14; --ink2:#3A3A4A; --muted:#6A6A80;
+    --rule:#E2E2EA; --hair:#EFEFF4;
+    --cobalt:#1E2BD6; --electric:#2547FF; --violet:#6B2FCC;
+    --orange:#E8472B; --yellow:#FFE100; --cyan:#22D3EE; --peach:#F4A672;
+    --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    --sans:"Helvetica Neue",Helvetica,Arial,system-ui,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font:16px/1.6 var(--sans);padding:0 1.1rem 4rem}
+  .shell{max-width:44rem;margin:0 auto}
+
+  .blocks{height:9px;margin:0 -1.1rem;
+    background:linear-gradient(110deg,#1E2BD6 0%,#1E2BD6 28%,#B5258F 28%,#B5258F 48%,
+      #E8472B 48%,#E8472B 68%,#B5258F 68%,#B5258F 88%,#1E2BD6 88%)}
+
+  header{padding:2.2rem 0 1.6rem}
+  .kick{font:600 11px/1 var(--mono);letter-spacing:.18em;text-transform:uppercase;
+        color:var(--cobalt);margin:0 0 .85rem}
+  h1{font:800 clamp(34px,10vw,58px)/.92 var(--sans);letter-spacing:-.035em;
+     text-transform:uppercase;margin:0}
+  .when{font:600 13px/1.5 var(--mono);color:var(--ink2);margin:1rem 0 0}
+  .when b{color:var(--ink)}
+
+  h2{font:800 clamp(19px,5.5vw,26px)/1.1 var(--sans);letter-spacing:-.02em;
+     text-transform:uppercase;margin:2.6rem 0 .9rem;padding-top:1.1rem;
+     border-top:2px solid var(--ink)}
+
+  .card{border:1px solid var(--rule);border-left:5px solid var(--rule);
+        padding:1rem 1.05rem;margin:.85rem 0;background:var(--bg)}
+  .card.p1{border-left-color:var(--orange)}
+  .card.p2{border-left-color:var(--cobalt)}
+  .card.p3{border-left-color:var(--violet)}
+  .card h3{font:700 17px/1.25 var(--sans);margin:0 0 .1rem}
+  .card .who{font:400 13px/1.5 var(--mono);color:var(--muted);margin:.25rem 0 .55rem}
+  .card p{margin:.5rem 0 0;font-size:15px;line-height:1.55;color:var(--ink2)}
+  .card p.why{color:var(--ink)}
+  .tag{display:inline-block;font:700 10.5px/1 var(--mono);letter-spacing:.13em;
+       text-transform:uppercase;padding:.34rem .5rem;margin:0 0 .55rem}
+  .t-must{background:var(--orange);color:#fff}
+  .t-high{background:var(--cobalt);color:#fff}
+  .t-base{background:var(--violet);color:#fff}
+  .t-ok{background:var(--yellow);color:var(--ink)}
+
+  .line{background:var(--yellow);padding:1rem 1.05rem;margin:1rem 0;
+        border-left:5px solid var(--ink)}
+  .line p{margin:0;font-size:16px;line-height:1.55}
+  .line .lbl{font:700 10.5px/1 var(--mono);letter-spacing:.13em;text-transform:uppercase;
+             display:block;margin-bottom:.6rem}
+
+  .grid{display:grid;gap:.5rem;margin:.9rem 0}
+  .row{display:grid;grid-template-columns:auto 1fr;gap:.75rem;align-items:baseline;
+       padding:.55rem 0;border-bottom:1px solid var(--hair);font-size:15px}
+  .row b{font:600 12.5px/1.4 var(--mono);color:var(--cobalt);white-space:nowrap}
+  .row span{color:var(--ink2)}
+
+  .note{background:var(--bg2);border:1px solid var(--rule);padding:.9rem 1rem;
+        margin:1.1rem 0;font-size:14.5px;line-height:1.6;color:var(--ink2)}
+  .note b{color:var(--ink)}
+
+  ul{margin:.7rem 0;padding-left:1.15rem}
+  li{margin:.4rem 0;font-size:15px;line-height:1.55;color:var(--ink2)}
+  a{color:var(--cobalt);word-break:break-word}
+
+  footer{border-top:2px solid var(--ink);margin-top:3rem;padding-top:1rem;
+         font:400 12.5px/1.7 var(--mono);color:var(--muted)}
+  @media (max-width:420px){ body{font-size:15.5px} .card{padding:.85rem .9rem} }
+</style>
+</head>
+<body>
+<div class="blocks"></div>
+<div class="shell">
+
+<header>
+  <p class="kick">Field plan</p>
+  <h1>All In<br>2026</h1>
+  <p class="when"><b>Sept 16 to 17</b> &middot; Palais des congrès, Montréal<br>
+  7,500 attendees &middot; 200+ speakers &middot; 5 tracks &middot; 11 industry verticals</p>
+</header>
+
+<div class="line">
+  <span class="lbl">Say this, not your job title</span>
+  <p>I build AI systems that generate media end to end. One wrote and published social
+  content for financial advisors across Canada. Another turns a two hour gig recording
+  into a month of captioned reels. Day job is AI transformation at CANARIE.</p>
+</div>
+
+<div class="note">
+  <b>Why that line matters.</b> Lead with the official title and every conversation for
+  two days becomes a security conversation. You will go home having had the wrong forty
+  chats. The line above is true, specific, has numbers in it, and routes people to the
+  half of your work you want more of.
+</div>
+
+<h2>The three that matter</h2>
+
+<div class="card p1">
+  <span class="tag t-must">Do not miss</span>
+  <h3>Creative Industries</h3>
+  <p class="who">Agora stage &middot; David Lerech (Propulsion Media) + an exec from <b>Runway</b></p>
+  <p class="why">The most on-trajectory session in the building, and it nearly did not get
+  found. Runway makes one of the video models in the render stack that the roles you want
+  are built on. Sit near the front and catch them coming off stage. Two minutes with someone
+  who has actually shipped a render pipeline beats an hour of panel.</p>
+  <p>Ask: what does the pipeline actually look like on the render side, and where does a
+  model make the visual call rather than a human.</p>
+</div>
+
+<div class="card p2">
+  <span class="tag t-high">Highest value</span>
+  <h3>Cohere</h3>
+  <p class="who">Exhibiting &middot; Aidan Gomez (CEO, co-founder) and Joelle Pineau (Chief AI Officer) both speaking</p>
+  <p class="why">Canadian, publishes its bands, and the agents and automations work is
+  the closest thing on the floor to what you actually build. Individual contributor, no
+  reports.</p>
+  <p>Work the booth, not the keynote. Engineers and recruiters, never the CEO. One good
+  conversation with someone on the agents team is worth more than a photograph.</p>
+</div>
+
+<div class="card p2">
+  <span class="tag t-high">Your unfair advantage</span>
+  <h3>Langfuse</h3>
+  <p class="who">Exhibiting &middot; LLM observability and evals</p>
+  <p class="why">The one booth where you arrive with something to say instead of being a
+  punter. You built an eval harness last week that found a 6.7% groundedness failure and a
+  contradiction between a rubric and its own schema. Two weeks ago evals was the weakest
+  line in your material. Turning up at the eval company with real findings closes it.</p>
+  <p>Lead with the finding, not the tool.</p>
+</div>
+
+<h2>Worth the walk</h2>
+
+<div class="card p3">
+  <span class="tag t-base">Covers the day job</span>
+  <h3>Alliance Canada</h3>
+  <p class="who">Digital Research Alliance of Canada &middot; exhibiting</p>
+  <p class="why">CANARIE's sibling in national research infrastructure. One conversation here
+  justifies the entire trip to Steve, and it feeds the AI transformation remit directly.</p>
+</div>
+
+<div class="card">
+  <span class="tag t-ok">Creative industry, in a suit</span>
+  <h3>Publicis &middot; L'Oréal</h3>
+  <p class="who">Both exhibiting</p>
+  <p class="why">The only two genuine creative-industry giants on the floor, both running
+  real generative content operations at scale. Publicis has a Montréal office. This is the
+  vertical-media lane wearing a lanyard.</p>
+</div>
+
+<div class="card">
+  <span class="tag t-ok">Local ecosystem</span>
+  <h3>Mirego &middot; Osedea &middot; Valtech &middot; Walter Interactive</h3>
+  <p class="who">Québec design-and-build studios, all exhibiting</p>
+  <p class="why">The creative-technical corner of Montréal. Worth twenty minutes if the
+  floor is quiet. These are the shops that hire people who design and build.</p>
+</div>
+
+<div class="card">
+  <span class="tag t-ok">Base covering</span>
+  <h3>Microsoft &middot; CrowdStrike &middot; Delinea &middot; Cyera &middot; Qohash</h3>
+  <p class="who">Cybersecurity is a full vertical this year</p>
+  <p class="why">Microsoft for the Copilot agent work specifically. The rest only if you
+  want ammunition for the IT turf fight. Do not let this become the whole conference.</p>
+</div>
+
+<h2>Evenings</h2>
+
+<div class="card p1">
+  <span class="tag t-must">Confirmed</span>
+  <h3>AI Salon Montréal</h3>
+  <p class="who">Tues 16 Sept &middot; AX.C &middot; doors 17:30 &middot; 331 going</p>
+  <p>17:45 welcome &middot; 18:00 keynote &middot; 18:15 startup demos and pitches &middot; 19:00 networking.
+  Hosts: Nicholas Nadeau, Claude G. Théoret, Sylvain Carle. Founders, builders and investors.
+  Sponsored by Québec Tech and AX.C.</p>
+  <p class="why">Go for the 19:00 hour, not the keynote. This is the room where Montréal's
+  actual builders are, and it is the closest thing to the creative-technical ecosystem you
+  will get all week.</p>
+</div>
+
+<div class="card p2">
+  <span class="tag t-high">Pending approval</span>
+  <h3>MINDSHIFT 5@8</h3>
+  <p class="who">Tues 16 Sept, 17:00 to 20:00 &middot; Bar Le Mal Nécessaire, 1015 Rue St Alexandre</p>
+  <p>Presented by Paperminds and Draft &amp; Goal. Their framing question: <em>how do we become
+  better with technology, rather than simply better at using it?</em></p>
+  <p class="why">The audience is <b>marketing leaders</b>, which is exactly why you should go.
+  You will be one of very few people in that room who has actually built the thing everyone
+  else is speculating about. That is your tech-and-marketing crossover in a bar.</p>
+</div>
+
+<div class="note">
+  Both are on the same evening and both start around five. AI Salon is confirmed, so if
+  MINDSHIFT lands, do MINDSHIFT first from five and move to AI Salon for the networking
+  hour at seven. They are a ten minute walk apart.
+</div>
+
+<h2>Also on</h2>
+<div class="grid">
+  <div class="row"><b>Mon 15, 09:00</b><span>Deep Dive Into Montréal's AI Ecosystem &middot; Montréal International at Dentons &middot; free, register</span></div>
+  <div class="row"><b>Mon 15, 08:30</b><span>SMEs and AI management systems &middot; CSA Group &middot; free, skip unless the morning is empty</span></div>
+  <div class="row"><b>Sun 14, 08:00</b><span>FinTech Forum &middot; Finance Montréal &middot; paid, not for you</span></div>
+  <div class="row"><b>Fri 18, 16:00</b><span>Onix, Beyond the Studio &middot; a pilates apero &middot; genuinely, no</span></div>
+</div>
+
+<h2>Ground rules</h2>
+<ul>
+  <li><b>Hallways over seats.</b> The talks are recorded, the conversations are not. Bias hard toward the floor and the Startup Zone.</li>
+  <li><b>The five tracks</b> are AI &amp; Society, Applied AI &amp; Enterprise Transformation, AI at the Frontier, AI Data &amp; Infrastructure, Physical AI &amp; Robotics. Applied AI is your day job on a stage. Everything creative sits inside the industry verticals, not the tracks, which is why it is easy to miss.</li>
+  <li><b>Posting from a conference</b> is the least job-seekery content that exists. A free week of being publicly an AI person with none of the risk.</li>
+  <li><b>Do not collect badges.</b> Five real conversations beats fifty cards.</li>
+</ul>
+
+<footer>
+  Built 2026-09-08 &middot; Bold Talks palette, inverted for daylight and phones<br>
+  Works offline. No tracking, no fonts, no requests.<br>
+  Sources: allinevent.ai programming, industries, partners and off-events pages; Luma; mindshift.social
+</footer>
+
+</div>
+<div class="blocks" style="margin-top:2.5rem"></div>
+</body>
+</html>
