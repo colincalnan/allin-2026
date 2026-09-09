@@ -74,4 +74,31 @@ SUMMARY:Deep Dive Into Montréal's AI Ecosystem
 LOCATION:Dentons, Montréal, QC
 DESCRIPTION:Hosted by Montréal International and Investissement Québec International with Dentons. Free, registration required. Aimed at international delegations; the fastest available map of who is actually in this city.\n\nOptional. End time is an estimate.
 END:VEVENT
+BEGIN:VEVENT
+UID:sat-residency-info@colincalnan.github.io
+DTSTAMP:20260908T120000Z
+DTSTART:20260930T150000Z
+DTEND:20260930T160000Z
+SUMMARY:SAT Research-Creation Residency, info session (online)
+LOCATION:Online, Societe des arts technologiques
+DESCRIPTION:Free online information session, 11:00 Montreal time.\n\n$10,000, two months, access to SAT labs and teams. Open to professional artists and collectives worldwide, international included.\n\nOne of three research areas: interactive, real-time generative audiovisual technology using AI, built around Koaia (SAT's real-time Stable Diffusion + TensorRT tool).\n\nContact: residences@sat.qc.ca\nApplication closes 18 October 2026.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:SAT residency info session
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sat-residency-deadline@colincalnan.github.io
+DTSTAMP:20260908T120000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:SAT Research-Creation Residency closes today
+DESCRIPTION:Deadline. residences@sat.qc.ca\n\nThe only item with a date on it. Everything else is a conversation.
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:SAT residency closes in one week
+END:VALARM
+END:VEVENT
 END:VCALENDAR
